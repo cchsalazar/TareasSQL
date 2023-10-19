@@ -1,0 +1,24 @@
+{
+  "name": "tareassql",
+  "version": "1.0.0",
+  "description": "Tareas SQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "cleanstart": "FORCE_SYNC=true node index.js",
+    "test": "FORCE_SYNC=true node truncate-tareas.js & mocha --exit"
+  },
+  "author": "Christian Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
+}
