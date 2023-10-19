@@ -1,6 +1,21 @@
 # TareasSQL
 API para la gestión de tareas
 
+## Scripts
+Iniciar el servidor + **sequelize sync force**
+```javascript
+npm run cleanstart
+```
+Iniciar el servidor
+```javascript
+npm run start
+```
+Ejecutar tests Mocha automatizados
+
+```javascript
+npm test
+```
+
 ## Uso de la API
 
 La API ofrece las siguientes rutas y acciones:
@@ -24,6 +39,7 @@ La API ofrece las siguientes rutas y acciones:
 ## Validaciones
 
 - El campo `titulo` es requerido en las solicitudes POST.
+
 
 ## Contribuciones
 
